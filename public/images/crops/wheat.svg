@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none">
+  <rect width="400" height="280" rx="12" fill="#143a29"/>
+  <rect y="180" width="400" height="100" fill="#0f2b1e"/>
+
+  <!-- Golden Wheat Ears -->
+  <g transform="translate(200, 30)">
+    <line x1="0" y1="200" x2="0" y2="40" stroke="#d97706" stroke-width="4"/>
+    
+    <!-- Central Wheat Awns and Grains -->
+    <!-- Grains -->
+    <path d="M0 40 L-14 28 L-6 16 L0 40 Z" fill="#f59e0b"/>
+    <path d="M0 40 L14 28 L6 16 L0 40 Z" fill="#d97706"/>
+    <path d="M0 60 L-16 48 L-8 36 L0 60 Z" fill="#f59e0b"/>
+    <path d="M0 60 L16 48 L8 36 L0 60 Z" fill="#d97706"/>
+    <path d="M0 80 L-16 68 L-8 56 L0 80 Z" fill="#f59e0b"/>
+    <path d="M0 80 L16 68 L8 56 L0 80 Z" fill="#d97706"/>
+    <path d="M0 100 L-16 88 L-8 76 L0 100 Z" fill="#f59e0b"/>
+    <path d="M0 100 L16 88 L8 76 L0 100 Z" fill="#d97706"/>
+    <path d="M0 120 L-14 108 L-7 96 L0 120 Z" fill="#f59e0b"/>
+    <path d="M0 120 L14 108 L7 96 L0 120 Z" fill="#d97706"/>
+    
+    <!-- Fine Awns / Bristles -->
+    <line x1="-10" y1="22" x2="-26" y2="0" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="10" y1="22" x2="26" y2="0" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="-12" y1="42" x2="-32" y2="20" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="12" y1="42" x2="32" y2="20" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="-12" y1="62" x2="-32" y2="40" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="12" y1="62" x2="32" y2="40" stroke="#fcd34d" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="0" y2="-10" stroke="#fcd34d" stroke-width="1.5"/>
+  </g>
+
+  <!-- Title Badge in bottom corner -->
+  <rect x="20" y="225" width="130" height="36" rx="6" fill="#1b4d36" stroke="#2e7d32" stroke-width="1"/>
+  <text x="35" y="248" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff">
+    WHEAT / गेहूं
+  </text>
+</svg>

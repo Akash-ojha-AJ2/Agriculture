@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none">
+  <!-- Solid agricultural card background -->
+  <rect width="400" height="280" rx="12" fill="#143a29"/>
+  <!-- Field ground section -->
+  <rect y="180" width="400" height="100" fill="#0f2b1e"/>
+  
+  <!-- Cotton Plant Illustration -->
+  <!-- Stems and branches -->
+  <path d="M200 230 Q195 140 200 70" stroke="#3d8e66" stroke-width="4" stroke-linecap="round"/>
+  <path d="M198 160 Q150 140 130 110" stroke="#3d8e66" stroke-width="3" stroke-linecap="round"/>
+  <path d="M200 140 Q250 120 270 95" stroke="#3d8e66" stroke-width="3" stroke-linecap="round"/>
+  <path d="M198 190 Q140 180 110 160" stroke="#3d8e66" stroke-width="3" stroke-linecap="round"/>
+  <path d="M200 180 Q260 170 290 150" stroke="#3d8e66" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Green Bracts / Calyx -->
+  <g transform="translate(200, 70)">
+    <path d="M-15 10 L0 25 L15 10 L0 0 Z" fill="#2e7d32"/>
+    <circle cx="-8" cy="-5" r="14" fill="#ffffff"/>
+    <circle cx="8" cy="-5" r="14" fill="#ffffff"/>
+    <circle cx="0" cy="-16" r="14" fill="#ffffff"/>
+    <circle cx="0" cy="-6" r="12" fill="#f8faf7"/>
+  </g>
+  
+  <g transform="translate(130, 110)">
+    <path d="M-12 8 L0 20 L12 8 L0 0 Z" fill="#2e7d32"/>
+    <circle cx="-6" cy="-4" r="11" fill="#ffffff"/>
+    <circle cx="6" cy="-4" r="11" fill="#ffffff"/>
+    <circle cx="0" cy="-12" r="11" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(270, 95)">
+    <path d="M-12 8 L0 20 L12 8 L0 0 Z" fill="#2e7d32"/>
+    <circle cx="-6" cy="-4" r="11" fill="#ffffff"/>
+    <circle cx="6" cy="-4" r="11" fill="#ffffff"/>
+    <circle cx="0" cy="-12" r="11" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(110, 160)">
+    <path d="M-10 6 L0 16 L10 6 L0 0 Z" fill="#2e7d32"/>
+    <circle cx="-5" cy="-3" r="9" fill="#ffffff"/>
+    <circle cx="5" cy="-3" r="9" fill="#ffffff"/>
+    <circle cx="0" cy="-10" r="9" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(290, 150)">
+    <path d="M-10 6 L0 16 L10 6 L0 0 Z" fill="#2e7d32"/>
+    <circle cx="-5" cy="-3" r="9" fill="#ffffff"/>
+    <circle cx="5" cy="-3" r="9" fill="#ffffff"/>
+    <circle cx="0" cy="-10" r="9" fill="#ffffff"/>
+  </g>
+
+  <!-- Title Badge in bottom corner -->
+  <rect x="20" y="225" width="130" height="36" rx="6" fill="#1b4d36" stroke="#2e7d32" stroke-width="1"/>
+  <text x="35" y="248" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff">
+    COTTON / कपास
+  </text>
+</svg>

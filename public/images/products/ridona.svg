@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" fill="none">
+  <!-- Clean studio backdrop panel -->
+  <rect width="320" height="420" rx="16" fill="#f4f7f5"/>
+  
+  <!-- Subtle ground shadow -->
+  <ellipse cx="160" cy="385" rx="85" ry="14" fill="#d5ded8"/>
+  
+  <!-- Agrochemical Bottle Container -->
+  <!-- Cap -->
+  <rect x="132" y="45" width="56" height="28" rx="4" fill="#0f3d2e"/>
+  <rect x="136" y="40" width="48" height="8" rx="2" fill="#1b5e40"/>
+  <!-- Ridges on Cap -->
+  <line x1="144" y1="45" x2="144" y2="73" stroke="#165339" stroke-width="2"/>
+  <line x1="152" y1="45" x2="152" y2="73" stroke="#165339" stroke-width="2"/>
+  <line x1="160" y1="45" x2="160" y2="73" stroke="#165339" stroke-width="2"/>
+  <line x1="168" y1="45" x2="168" y2="73" stroke="#165339" stroke-width="2"/>
+  <line x1="176" y1="45" x2="176" y2="73" stroke="#165339" stroke-width="2"/>
+
+  <!-- Neck & Shoulder -->
+  <path d="M136 73 L184 73 L184 95 L225 130 L225 365 L95 365 L95 130 L136 95 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Bottle Volume Indicator Lines on Side -->
+  <line x1="102" y1="180" x2="110" y2="180" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="102" y1="220" x2="114" y2="220" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="102" y1="260" x2="110" y2="260" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="102" y1="300" x2="114" y2="300" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Main Product Label -->
+  <rect x="110" y="145" width="100" height="205" rx="4" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Top Brand Banner -->
+  <rect x="110" y="145" width="100" height="28" fill="#143a29"/>
+  <text x="160" y="162" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+    HYDERABAD CROP SCIENCE
+  </text>
+
+  <!-- Category Band (Insecticide - Blue/Green Solid) -->
+  <rect x="110" y="173" width="100" height="14" fill="#1e6b45"/>
+  <text x="160" y="183" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+    INSECTICIDE
+  </text>
+
+  <!-- Product Name -->
+  <text x="160" y="222" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#143a29" text-anchor="middle" letter-spacing="1.5">
+    RIDONA
+  </text>
+
+  <!-- Active Ingredient & Formulation -->
+  <text x="160" y="240" font-family="system-ui, sans-serif" font-size="7.5" font-weight="700" fill="#334155" text-anchor="middle">
+    Chlorantraniliprole 18.5% SC
+  </text>
+  <text x="160" y="252" font-family="system-ui, sans-serif" font-size="6.5" font-weight="500" fill="#64748b" text-anchor="middle">
+    Suspension Concentrate
+  </text>
+
+  <!-- Crop Shield Icon on Label -->
+  <path d="M160 262 L172 266 C172 278 167 284 160 288 C153 284 148 278 148 266 Z" fill="#eef7f2" stroke="#2e7d32" stroke-width="1"/>
+  <circle cx="160" cy="275" r="2.5" fill="#c97a1e"/>
+
+  <!-- Toxicity Warning Triangle (Blue Triangle for Class III) -->
+  <polygon points="152,320 168,320 160,306" fill="#0284c7" stroke="#0369a1" stroke-width="1"/>
+  <text x="160" y="318" font-family="system-ui, sans-serif" font-size="6" font-weight="700" fill="#ffffff" text-anchor="middle">
+    !
+  </text>
+
+  <text x="160" y="334" font-family="system-ui, sans-serif" font-size="6.5" font-weight="700" fill="#0369a1" text-anchor="middle">
+    CAUTION
+  </text>
+  <text x="160" y="344" font-family="system-ui, sans-serif" font-size="6" font-weight="500" fill="#475569" text-anchor="middle">
+    Net Vol: 150 ml
+  </text>
+</svg>

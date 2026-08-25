@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" fill="none">
+  <rect width="400" height="280" rx="12" fill="#143a29"/>
+  <rect y="180" width="400" height="100" fill="#0f2b1e"/>
+
+  <!-- Golden Rice Panicle Spikes -->
+  <g transform="translate(190, 40)">
+    <path d="M10 190 Q15 110 5 40" stroke="#4caf50" stroke-width="4"/>
+    <path d="M10 190 Q25 100 65 30" stroke="#4caf50" stroke-width="3"/>
+    
+    <!-- Golden Grains -->
+    <!-- Left Arched Spikelet -->
+    <ellipse cx="5" cy="40" rx="6" ry="12" transform="rotate(-20 5 40)" fill="#e58e26"/>
+    <ellipse cx="2" cy="60" rx="6" ry="12" transform="rotate(-25 2 60)" fill="#f6ad55"/>
+    <ellipse cx="0" cy="80" rx="6" ry="12" transform="rotate(-20 0 80)" fill="#e58e26"/>
+    <ellipse cx="3" cy="100" rx="6" ry="12" transform="rotate(-15 3 100)" fill="#f6ad55"/>
+    <ellipse cx="7" cy="120" rx="6" ry="12" transform="rotate(-15 7 120)" fill="#e58e26"/>
+    
+    <!-- Right Arched Spikelet -->
+    <ellipse cx="65" cy="30" rx="6" ry="12" transform="rotate(35 65 30)" fill="#f6ad55"/>
+    <ellipse cx="55" cy="45" rx="6" ry="12" transform="rotate(30 55 45)" fill="#e58e26"/>
+    <ellipse cx="45" cy="65" rx="6" ry="12" transform="rotate(25 45 65)" fill="#f6ad55"/>
+    <ellipse cx="35" cy="85" rx="6" ry="12" transform="rotate(20 35 85)" fill="#e58e26"/>
+    <ellipse cx="25" cy="110" rx="6" ry="12" transform="rotate(15 25 110)" fill="#f6ad55"/>
+    
+    <!-- Rice Leaves -->
+    <path d="M10 170 Q-60 120 -80 70 Q-40 100 10 150" fill="#2e7d32"/>
+    <path d="M12 160 Q80 110 100 60 Q70 100 12 145" fill="#388e3c"/>
+  </g>
+
+  <!-- Title Badge in bottom corner -->
+  <rect x="20" y="225" width="130" height="36" rx="6" fill="#1b4d36" stroke="#2e7d32" stroke-width="1"/>
+  <text x="35" y="248" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#ffffff">
+    RICE / धान
+  </text>
+</svg>

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f8faf7;
+    --foreground: #141c17;
+    --primary: #143a29;
+    --primary-foreground: #ffffff;
+    --secondary: #eef7f2;
+    --secondary-foreground: #143a29;
+    --muted: #f2f6f1;
+    --muted-foreground: #5a6e62;
+    --accent: #2e7d32;
+    --accent-foreground: #ffffff;
+    --border: #e1e8e2;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #1f2937;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom utility styles with SOLID colors only - NO GRADIENTS */
+.bg-agri-solid-deep {
+  background-color: #143a29;
+}
+
+.bg-agri-solid-forest {
+  background-color: #1a4d36;
+}
+
+.bg-agri-solid-surface {
+  background-color: #f8faf7;
+}
+
+.bg-agri-solid-panel {
+  background-color: #f2f6f1;
+}
+
+/* Focus and accessibility styles */
+:focus-visible {
+  outline: 2px solid #2e7d32;
+  outline-offset: 2px;
+}
